@@ -7,7 +7,7 @@ test-cases:
 
   - summary: |
       Успешный поиск товара по ключевому слову
-    status: pass
+    status: faill
 
   - summary: |
       Успешное добавление товара в корзину
@@ -15,6 +15,26 @@ test-cases:
 
   - summary: |
       Успешное удаление товара из корзины
-    status: pass
+    status: faill
+    
+  - summary: |
+      Пропадает производитель
+    status: faill
 
+  - summary: |
+      слетает язык при октрытие другой странцы
+    status: faill
+
+  - summary: |
+      не работает прайс 
+    status: faill
+
+  - summary: |
+      не работают категории 
+    status: faill
+
+    - summary: |
+      не работают кнопки 
+    status: faill
+    
 bugreports: []
