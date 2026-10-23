@@ -1,1 +1,20 @@
 
+---
+test-cases:
+  - summary: |
+      Успешное отображение каталога товаров
+    status: pass
+
+  - summary: |
+      Успешный поиск товара по ключевому слову
+    status: pass
+
+  - summary: |
+      Успешное добавление товара в корзину
+    status: pass
+
+  - summary: |
+      Успешное удаление товара из корзины
+    status: pass
+
+bugreports: []
